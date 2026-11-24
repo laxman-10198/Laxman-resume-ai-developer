@@ -24,7 +24,7 @@ Edit the site content (projects, skills, contact numbers) in `lib/data.ts`.
 
 Every push to `main` builds the site and deploys it to GitHub Pages via `.github/workflows/deploy.yml`.
 
-One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+The workflow publishes the build to the `gh-pages` branch, which GitHub Pages serves (Settings → Pages → Source: Deploy from a branch → `gh-pages` / root).
 
 ## Lead dashboard setup (Firebase)
 
